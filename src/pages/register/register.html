@@ -1,0 +1,52 @@
+<ion-content>
+  <div class="top">
+    <ion-row>
+      <ion-col size="5">
+        <h1>Welcome!</h1>
+        <span class="foot">Cross country made affordable and seemless</span>
+      </ion-col>
+      <ion-col size="2">
+        <span class="logo">S</span>
+      </ion-col>
+    </ion-row>
+  </div>
+  <div class="fbuttons">
+  <ion-row>
+    <ion-col size="">
+      <button ion-button class="sign" round (click)="goHome()">Sign In</button>
+    </ion-col>
+    <ion-col size="">
+      <button ion-button class="reg" round>Register</button>
+    </ion-col>
+  </ion-row>
+  </div>
+
+  <ion-row style="margin-top: 40px">
+    <ion-col class="colsss">
+      <ion-label class="emailLabel">Name</ion-label>
+      <div class="ic">
+        <ion-input type="text" class="emailInput" color="light"></ion-input>
+        <i class="fas fa-user"></i>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col class="cols">
+      <ion-label class="passLabel">Email</ion-label>
+      <div class="ic">
+        <ion-input type="email" class="passInput" color="light"></ion-input>
+        <i class="fas fa-envelope"></i>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col class="cols">
+      <ion-label class="passLabel">Phone Number</ion-label>
+      <div class="ic">
+        <ion-input type="number" class="phInput" color="light"></ion-input>
+        <i class="fas fa-phone-alt"></i>    
+      </div>
+    </ion-col>
+  </ion-row>
+  <button ion-button class="log" (click)="goConfirmNumber()">Continue</button>
+</ion-content>

@@ -1,0 +1,148 @@
+page-confirmation {
+    
+  .top{
+      background: linear-gradient(298.01deg, #17BEBB 16.88%,#00A0FA 103.57%);
+      position: relative;
+      width: 411px;
+      height: 190px;
+      top:0px;
+      left: 0px;
+    }
+    h1{
+      color: #ffffff;
+      position: absolute;
+      width: 192px;
+      height: 54px;
+      left: 30px;
+      top: 61px;
+      font-family: 'Poppins';
+    }
+    .logo{
+      position: absolute;
+      width: 44px;
+      height: 58px;
+      left: 70px;
+      top: 69px;
+      font-weight:500;
+      color:#ffffff;
+      font-size: 75px;
+    }
+    .foot{
+      color:#ffffff;
+      position: absolute;
+      width: 232px;
+      height: 40px;
+      left: 30px;
+      top: 116px;
+    }
+    .sign{
+      position: relative;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14);
+      color: #828282;
+      left: 25%;
+      z-index: 6;
+      text-transform: capitalize;
+    }
+    .reg{
+      position: relative;
+      background: #FFFFFF;
+      border: 1px solid #E0E0E0;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14);
+      color: #17BEBB;
+      left: 11%;
+      right: 10%;
+      z-index: 6;
+      text-transform: capitalize;
+    }
+    .fbuttons{
+      position: relative;
+      background: linear-gradient(298.01deg, #17BEBB 16.88%,#00A0FA 103.57%);
+      height: 30px;
+    }
+    .OTP{
+      position: relative;
+      left: 15%;
+      background: #F3F7FF;
+      border-radius: 12px;
+      width: 120%;
+    }
+    .svg{
+      position: relative;
+      top: 62%;
+      left: 47%;
+      right: 0%;
+      bottom: 0%;
+    }
+    .colsss{
+      margin-left: 8%;
+    }
+    .cols{
+      margin-left: 9%;
+    }
+    .emailLabel{
+      font-weight: 600;
+      font-size: 15.3px;
+      line-height: 21px;
+      letter-spacing: 0.06em;
+      color: #217EEB;
+      position: relative; 
+      left:23%;
+    }
+    .log{
+      position: relative;
+      border-radius: 20px;
+      margin-top: 17%;
+      left: 9%;
+      width: 79%;
+      height: 7%;
+      background: linear-gradient(298.01deg, #17BEBB 16.88%,#00A0FA 103.57%);
+      color: #FFFFFF;
+      box-shadow: 0 8px 6px -6px #828282;
+      text-transform: capitalize;
+    }
+    .fr{
+      position: relative;
+      font-size: 15.3px;
+      line-height: 21px;
+      color: #4F4F4F;
+      text-align: center;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.11em;
+      text-align: center;
+    }
+
+    .msg{
+      margin-top: 13%;
+      margin-bottom: 4%;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;        
+      text-align: center;        
+      color: #333333;
+    }
+    .display{
+      background: #217EEB;
+      color: #FFFFFF;
+      position: relative;
+      top: 16%;
+      left: 21%;
+    }
+    .back{
+      position: relative;
+      top: 2%;
+      left: 43%;
+    }
+    .sag{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: 0.03em;
+    }
+
+}

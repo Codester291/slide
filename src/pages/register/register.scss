@@ -1,4 +1,5 @@
-page-home{
+page-register {
+
   .top{
     background: linear-gradient(298.01deg, #17BEBB 16.88%,#00A0FA 103.57%);
     position: relative;
@@ -38,7 +39,7 @@ page-home{
     position: relative;
     background: #FFFFFF;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14);
-    color: #17BEBB;
+    color: #828282;
     left: 25%;
     z-index: 6;
     text-transform: capitalize;
@@ -49,7 +50,7 @@ page-home{
     border: 1px solid #E0E0E0;
     box-sizing: border-box;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14);
-    color: #828282;
+    color: #17BEBB;
     left: 11%;
     right: 10%;
     z-index: 6;
@@ -71,10 +72,18 @@ page-home{
     background: #F3F7FF;
     border-radius: 12px;
   }
-
   .passInput{
+    width: 91%;
+    height: 14%;
+    margin: 8px 0;
+    outline: none;
+    padding: 2px;
+    box-sizing: border-box;
+    transition: 0.3s;
     background: #F3F7FF;
     border-radius: 12px;
+  }
+  .phInput{
     width: 91%;
     height: 14%;
     margin: 8px 0;
@@ -93,7 +102,8 @@ page-home{
   }
   .emailLabel{
     position: relative;
-    left: 3%;
+    left: 5%;
+    top: 2%;
     font-weight: 600;
     font-size: 15.3px;
     line-height: 21px;
@@ -102,7 +112,8 @@ page-home{
   }
   .passLabel{
     position: relative;
-    left: 3%;
+    left: 5%;
+    top: 2%;
     font-weight: 600;
     font-size: 15.3px;
     line-height: 21px;
@@ -111,20 +122,20 @@ page-home{
   }
   .f{
     position: relative;
-    top: 36%;
+    top: 23%;
     bottom: 10%;
     font-size: 15.3px;
     line-height: 21px;
     color: #828282;
-    left: 14%;
+    left: 11%;
   }
   .log{
     position: relative;
     border-radius: 20px;
-    margin-top: 15%;
-    left: 11%;
-    width: 75%;
-    height: 7%;
+    margin-top: 10%;
+    left: 9%;
+    width: 79%;
+    height: 8%;
     background: linear-gradient(298.01deg, #17BEBB 16.88%,#00A0FA 103.57%);
     color: #FFFFFF;
     box-shadow: 0 8px 6px -6px #828282;
@@ -150,4 +161,5 @@ page-home{
     border-bottom-left-radius: 12px;
     border-top-left-radius: 12px;
   }
+  
 }

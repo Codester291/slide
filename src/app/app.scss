@@ -14,3 +14,29 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+@font-face{
+    font-family: 'Lobster';
+    src: url('../assets/fonts/lobster.woff2')
+}
+@font-face{
+  font-family: 'Poppins';
+  src: url('../assets/fonts/poppins.woff2');
+}
+@font-face{
+  font-family: 'Nunito Sans';
+  src: url('../assets/fonts/Nunito Sans.woff2');
+}
+h1{
+  font-family: 'Poppins' !important;
+}
+.foot, .f, .msg, .sag{
+  font-family: 'Nunito Sans'
+}
+.reg, .sign{
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+}
+ion-label{
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+}
